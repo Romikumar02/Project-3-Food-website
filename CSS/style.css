@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+    overflow: hidden;
+   
+}
+body{
+   
+    background-image: url(../image/pexels-maxyne-barcel-10402282.jpg);
+    background-size: 100%;
+    background-position: 100%;
+   
+    /* background-repeat: no-repeat; */
+    color:rgb(2, 69, 67) ;
+    font-weight: 900;
+
+  
+    
+    
+    
+    
+}
+
+    
+    
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+ul{
+    display: flex;
+    gap: 5%;
+    text-align: center;
+}
+ul li{
+    
+    
+    
+    
+    font-size: large;
+    list-style: none;
+    margin: 15px;
+    padding: 18px;
+}
+ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.btn{
+    background-color:  orange;
+    font-size: medium;
+    font-weight: 600;
+    border: 2px solid white;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 12px;
+    color: white;
+    
+}
+.btn:hover{
+    background-color: black;
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+}
+/* main section */
+main{
+    justify-content: center;
+    text-align: center;
+    margin: 12%;
+    
+}
+main h1{
+    margin-bottom: 5%;
+}
+/* footer */
+footer{
+    
+    height: 100px;
+    float: right;
+    
+}
+
+/* footer img */
+.footerimg{
+    width: 100px;
+    
+}
+
+
+
